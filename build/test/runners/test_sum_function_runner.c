@@ -11,7 +11,6 @@ char* GlobalOrderError;
 extern void setUp(void);
 extern void tearDown(void);
 extern void test_sum_function_NeedToImplement(void);
-extern void test_sum_positive_numbers(void);
 extern void test_sum_negative_numbers(void);
 extern void test_sum_zero(void);
 
@@ -78,10 +77,9 @@ static void run_test(UnityTestFunction func, const char* name, UNITY_LINE_TYPE l
 int main(void)
 {
   UnityBegin("test_sum_function.c");
-  run_test(test_sum_function_NeedToImplement, "test_sum_function_NeedToImplement", 15);
-  run_test(test_sum_positive_numbers, "test_sum_positive_numbers", 20);
-  run_test(test_sum_negative_numbers, "test_sum_negative_numbers", 27);
-  run_test(test_sum_zero, "test_sum_zero", 34);
+  run_test(test_sum_function_NeedToImplement, "test_sum_function_NeedToImplement", 16);
+  run_test(test_sum_negative_numbers, "test_sum_negative_numbers", 28);
+  run_test(test_sum_zero, "test_sum_zero", 35);
 
   return UnityEnd();
 }

@@ -1,3 +1,4 @@
+#define TEST  1
 #ifdef TEST
 
 #include "unity.h"
