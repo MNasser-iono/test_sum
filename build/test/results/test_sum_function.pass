@@ -1,0 +1,30 @@
+---
+:source:
+  :path: test
+  :file: test_sum_function.c
+:successes:
+- :test: test_sum_positive_numbers
+  :line: 20
+  :message: ''
+  :unity_test_time: 0
+- :test: test_sum_negative_numbers
+  :line: 27
+  :message: ''
+  :unity_test_time: 0
+- :test: test_sum_zero
+  :line: 34
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores:
+- :test: test_sum_function_NeedToImplement
+  :line: 17
+  :message: Need to Implement sum_function
+  :unity_test_time: 0
+:counts:
+  :total: 4
+  :passed: 3
+  :failed: 0
+  :ignored: 1
+:stdout: []
+:time: 0.26070680003613234
