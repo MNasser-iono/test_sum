@@ -12,7 +12,7 @@ void setUp(void)
 void tearDown(void)
 {
 }
-//hgyugui
+
 void test_sum_function_NeedToImplement(void)
 {
     TEST_IGNORE_MESSAGE("Need to Implement sum_function");
